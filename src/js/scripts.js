@@ -1,18 +1,18 @@
 const data = [
   {
-    image: "/src/designs/active-states.jpg",
+    image: "./src/designs/active-states.jpg",
     title: "order summary component",
-    url: "/order-summary-component/index.html",
+    url: "./order-summary-component/index.html",
   },
   {
-    image: "/src/designs/desktop-design.jpg",
+    image: "./src/designs/desktop-design.jpg",
     title: "profile card component",
-    url: "/profile-card-component/index.html",
+    url: "./profile-card-component/index.html",
   },
   {
-    image: "/src/designs/active-states2.jpg",
+    image: "./src/designs/active-states2.jpg",
     title: "Sunnyside agency landing page",
-    url: "/sunnyside-agency-landing-page/index.html",
+    url: "./sunnyside-agency-landing-page/index.html",
   }
 ];
 
