@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/estilos.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Frontend Mentor | Profile card component 💖</title>
+  </head>
+  <body>
+    <main class="flex">
+      <article class="card">
+        <img
+          src="./images/bg-pattern-card.svg"
+          alt="Imagen Header card"
+          class="card-header"
+        />
+        <div class="card-body">
+          <img
+            src="./images/image-victor.jpg"
+            alt="imagen de imagen de victor"
+            class="card-body-img"
+          />
+          <h1 class="card-body-title">
+            Victor charset
+            <span>26</span>
+          </h1>
+          <p class="card-body-text">London</p>
+        </div>
+        <div class="card-footer">
+          <div class="card-footer-social">
+            <h3>80K</h3>
+            <p>Followers</p>
+          </div>
 
-  80K
-  Followers
+          <div class="card-footer-social">
+            <h3>803K</h3>
+            <p>Likes</p>
+          </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
+          <div class="card-footer-social">
+            <h3>1.4k</h3>
+            <p>Photos</p>
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+  </body>
 </html>
